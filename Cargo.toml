@@ -34,7 +34,7 @@ curv = { package = "curv-kzen", git="https://github.com/EfficientPrivacyTech/cur
 #version = "0.10"
 #default-features = false
 
-paillier = { package = "kzen-paillier", path = "https://github.com/EfficientPrivacyTech/rust-paillier", default-features = false }
+paillier = { package = "kzen-paillier", git = "https://github.com/EfficientPrivacyTech/rust-paillier.git", default-features = false }
 #[dependencies.paillier]
 #package = "kzen-paillier"
 #version = "0.4.3"
